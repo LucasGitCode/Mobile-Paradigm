@@ -1,0 +1,174 @@
+/* General styles */
+* {
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 74rem;
+	text-align: left;
+	color: black;
+	font-family: Calibri, sans-serif;
+	background-color: #eaeaea;
+	margin: auto;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 3.5rem;
+	color: black;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.container{
+	background-color: white;
+}
+
+.logo{
+	width: 300px;
+	margin-bottom: -20px;
+}
+
+.content {
+	margin: 10px 20px 0px 20px;
+}
+/* End general formatting */
+
+/* Top Nav */
+.navtop ul{
+	list-style-type: Calibri;
+	padding: 0;
+ 	overflow: hidden;
+ 	background-color: #201644;
+}
+.navtop li{
+	float: left;
+}
+
+.navtop a{
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 10px 20px;
+  	text-decoration: none;
+}
+
+.navtop li a.active {
+  	background-color: #FFCC99;
+  	color: #000000;
+}
+/* End top nav */
+
+/* Bottom Nav */
+.botnav ul{
+	list-style-type: Calibri;
+	padding: 0;
+ 	overflow: hidden;
+ 	background-color: #201644;
+}
+.botnav li{
+	float: left;
+}
+
+.botnav a{
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 10px 20px;
+  	text-decoration: none;
+}
+/* End Bottom Nav */
+
+/* Info Nav */
+.info ul{
+	list-style-type: Calibri;
+	padding: 0;
+ 	overflow: hidden;
+ 	background-color: #201644;
+}
+.info ul a{
+	float: left;
+}
+
+.info a{
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 10px 20px;
+  	text-decoration: none;
+}
+/* End Info Nav */
+
+/* Box */
+.box{
+	max-width: 74rem;
+	text-align: center;
+	color: black;
+	font-family: Calibri, sans-serif;
+	background-color: #eaeaea;
+	margin: 0 100px 100px 100px;
+}
+
+.search input[type=text] {
+  float: left;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+	border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .search a, .search input[type=text] {
+    float: left;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }}
+/* End Box */
+
+/* Main Nav */
+.box main {
+	background-color: #201644;
+	color: white;
+	padding: 14px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.main {
+	display: table;
+	position: relative;
+	font-size: 16px;
+	font-family: "Calibri";
+}
+
+.main{
+	background-color: #f1f1f1;
+	color: black;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.main ul li a{
+	list-style-type: none;
+	padding: 2px 10px 2px 10px;
+	font-size: 14px;
+}
+
+.main ul li a:hover{
+	background-color: purple;
+	color: white;
+	text-decoration: underline;
+}
+/* End Main Nav */
+
+/* Image */
+.route{
+	width: 350px;
+	height: 500px
+	margin-bottom: -20px;
+}
