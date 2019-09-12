@@ -9,7 +9,7 @@ body{
 	color: black;
 	font-family: Calibri, sans-serif;
 	background-color: #eaeaea;
-	margin: auto;
+	margin: 10px 40px;
 }
 
 h1 {
@@ -20,8 +20,18 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-weight: 900;
+	color: black;
+	margin: 10px 0px;
+	text-align: left;
+}
+
+
+
 .container{
 	background-color: white;
+
 }
 
 .logo{
@@ -35,7 +45,7 @@ h1 {
 /* End general formatting */
 
 /* Top Nav */
-.navtop ul{
+.navtop ul {
 	list-style-type: Calibri;
 	padding: 0;
  	overflow: hidden;
@@ -62,9 +72,11 @@ h1 {
 /* Bottom Nav */
 .botnav ul{
 	list-style-type: Calibri;
-	padding: 0;
+	padding: 0 10px 0 10px;
  	overflow: hidden;
  	background-color: #201644;
+	position: inherit;
+	bottom: 0;
 }
 .botnav li{
 	float: left;
@@ -102,11 +114,11 @@ h1 {
 /* Box */
 .box{
 	max-width: 74rem;
-	text-align: center;
+	text-align: left;
 	color: black;
 	font-family: Calibri, sans-serif;
 	background-color: #eaeaea;
-	margin: 0 100px 100px 100px;
+	margin: 0;
 }
 
 .search input[type=text] {
@@ -118,8 +130,8 @@ h1 {
   font-size: 17px;
 }
 
-@media screen and (max-width: 600px) {
-  .search a, .search input[type=text] {
+@media (min-width: 800px) {
+  .search, .search input[type=text] {
     float: left;
     display: block;
     text-align: left;
@@ -130,10 +142,9 @@ h1 {
 /* End Box */
 
 /* Main Nav */
-.box main {
+.main {
 	background-color: #201644;
-	color: white;
-	padding: 14px;
+	padding: 0;
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
@@ -168,7 +179,6 @@ h1 {
 
 /* Image */
 .route{
-	width: 350px;
-	height: 500px
-	margin-bottom: -20px;
+	width: 300px;
+	height: 500px;
 }
