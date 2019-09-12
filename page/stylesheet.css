@@ -124,20 +124,19 @@ h2 {
 .search input[type=text] {
   float: left;
   padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
+  margin-top: 5px;
+	margin-bottom: 5px;
 	border: none;
   font-size: 17px;
 }
 
 @media (min-width: 800px) {
   .search, .search input[type=text] {
-    float: left;
     display: block;
     text-align: left;
     width: 100%;
     margin: 0;
-    padding: 14px;
+    padding: 5px;
   }}
 /* End Box */
 
