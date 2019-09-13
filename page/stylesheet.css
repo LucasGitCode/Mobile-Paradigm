@@ -75,7 +75,7 @@ h2 {
 	padding: 0 10px 0 10px;
  	overflow: hidden;
  	background-color: #201644;
-	position: inherit;
+	position: relative;
 	bottom: 0;
 }
 .botnav li{
@@ -112,7 +112,7 @@ h2 {
 /* End Info Nav */
 
 /* Box & Search */
-.box{
+.box main{
 	max-width: 74rem;
 	text-align: left;
 	color: black;
@@ -130,43 +130,73 @@ h2 {
   font-size: 17px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 520px) {
   .search, .search input[type=text] {
     display: block;
     text-align: left;
     width: 100%;
     margin: 0;
     padding: 5px;
-  }}
+		}}
+
+.box ul {
+		list-style-type: Calibri;
+		padding: 0;
+	 	overflow: hidden;
+	 	background-color: #201644;
+	}
+
+.box li a{
+		display: table;
+		position: relative;
+		font-size: 16px;
+		font-family: "Calibri";
+	}
+
+.box {
+		background-color: #f1f1f1;
+		color: black;
+		padding-left: 0;
+		margin-top: 0;
+	}
+
+.box a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
 /* End Box */
 
 /* Main Nav */
-.main {
-	background-color: #201644;
+.main ul {
+	list-style-type: Calibri;
 	padding: 0;
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
+ 	overflow: hidden;
+ 	background-color: #201644;
 }
 
-.main {
+.main li a{
 	display: table;
 	position: relative;
 	font-size: 16px;
 	font-family: "Calibri";
 }
 
-.main{
+.main {
 	background-color: #f1f1f1;
 	color: black;
 	padding-left: 0;
 	margin-top: 0;
 }
 
-.main ul li a{
-	list-style-type: none;
-	padding: 2px 10px 2px 10px;
-	font-size: 14px;
+.main a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
 }
 /* End Main Nav */
 
