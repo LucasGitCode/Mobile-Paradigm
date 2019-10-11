@@ -45,11 +45,14 @@ h2 {
 /* End general formatting */
 
 /* Top Nav */
+@media screen and (max-width:1000px) {
 .navtop ul {
 	list-style-type: Calibri;
 	padding: 0;
  	overflow: hidden;
  	background-color: #201644;
+	position: absolute;
+	top: 15%;
 }
 .navtop li{
 	float: left;
@@ -66,17 +69,18 @@ h2 {
 .navtop li a.active {
   	background-color: #FFCC99;
   	color: #000000;
-}
+}}
 /* End top nav */
 
 /* Bottom Nav */
+@media screen and (max-width:1000px) {
 .botnav ul{
 	list-style-type: Calibri;
 	padding: 0 10px 0 10px;
  	overflow: hidden;
  	background-color: #201644;
-	position: relative;
-	bottom: 0;
+	position: absolute;
+	top: 175%;
 }
 .botnav li{
 	float: left;
@@ -88,7 +92,7 @@ h2 {
   	text-align: center;
   	padding: 10px 20px;
   	text-decoration: none;
-}
+}}
 /* End Bottom Nav */
 
 /* Info Nav */
@@ -119,6 +123,7 @@ h2 {
 	font-family: Calibri, sans-serif;
 	background-color: #eaeaea;
 	margin: 0;
+	position: absolute;
 }
 
 .search input[type=text] {
@@ -130,25 +135,29 @@ h2 {
   font-size: 17px;
 }
 
-@media (min-width: 520px) {
+@media screen and (min-width: 1000px) {
   .search, .search input[type=text] {
     display: block;
     text-align: left;
+		top:35%;
     width: 100%;
     margin: 0;
     padding: 5px;
+		position: absolute;
 		}}
 
-.box ul {
+.box {
 		list-style-type: Calibri;
-		padding: 0;
+		top: 30%;
 	 	overflow: hidden;
-	 	background-color: #201644;
+		position: absolute;
 	}
 
-.box li a{
+.box ul{
 		display: table;
 		position: relative;
+		padding: 0;
+		background-color: #201644;
 		font-size: 16px;
 		font-family: "Calibri";
 	}
@@ -201,7 +210,22 @@ h2 {
 /* End Main Nav */
 
 /* Image */
-.route{
-	width: 300px;
-	height: 500px;
+@media screen and (max-width:1000px) {
+.route	{
+	float:left;
+	width: 100%;
+	padding: 5px;
 }
+
+.time {
+	float: left;
+	width: 100%;
+	height: 50%;
+	padding: 5px;
+}
+
+.info ul{
+	content: "";
+	clear: both;
+	display: table;
+}}
